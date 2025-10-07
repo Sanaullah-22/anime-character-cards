@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  background-color: lightblue;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  
+}
+#card{
+  height: 300px;
+  width: 250px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px red;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 20px;
+  
+
+  
+}
+#card img{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: center;
+  
+}
+#card h1{
+  color: red;
+  font-size: 25px;
+
+}
+#card p{
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#card button{
+  
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 5px;
+  color: red;
+  font-size: 15px;
+  cursor: pointer;
+}
+#card button:hover{
+  background-color: red;
+  color: black;
+}
+#card video{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  
+}
